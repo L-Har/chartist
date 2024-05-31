@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.0.0 (2024-05-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* methods in EventEmitter were renamed
+
+### Features
+
+* accumulate-relative stacked bar chart stack mode ([#1375](https://github.com/chartist-js/chartist/issues/1375)) ([ce13067](https://github.com/chartist-js/chartist/commit/ce13067acec9cee050af979d323dae5e728292c4)), closes [#1167](https://github.com/chartist-js/chartist/issues/1167)
+* add an error message when chart container is not found ([#1392](https://github.com/chartist-js/chartist/issues/1392)) ([6ee19be](https://github.com/chartist-js/chartist/commit/6ee19be3a1936a3c1761aa2f3651683a02495543))
+* add ResponsiveOptions type helper, add generic type to Svg#getNode method ([#1347](https://github.com/chartist-js/chartist/issues/1347)) ([7dd3ba2](https://github.com/chartist-js/chartist/commit/7dd3ba2992751976bfdff9603021afa8fad140d8))
+* dist scss styles sources ([#1362](https://github.com/chartist-js/chartist/issues/1362)) ([d0efcb0](https://github.com/chartist-js/chartist/commit/d0efcb00aa45e1d4611a16472da758ead8148f7b))
+* fully typed events ([#21](https://github.com/chartist-js/chartist/issues/21)) ([3bd4eba](https://github.com/chartist-js/chartist/commit/3bd4ebae0981366943ae0bb6a7ec05a7f3d78b16))
+* remove legacy styles fallbacks ([#1363](https://github.com/chartist-js/chartist/issues/1363)) ([831673f](https://github.com/chartist-js/chartist/commit/831673f9dff080d1c762db2bc5da397eb0b55ab9))
+
+
+### Bug Fixes
+
+* add Date type to members of Multi type ([#1348](https://github.com/chartist-js/chartist/issues/1348)) ([9bd8679](https://github.com/chartist-js/chartist/commit/9bd867958dd457b26cb697cf6b4d101944443755))
+* add dist exports ([#1374](https://github.com/chartist-js/chartist/issues/1374)) ([1438bad](https://github.com/chartist-js/chartist/commit/1438bad5b8754fe0744c4c1c8540c08a4c4e6862)), closes [#1368](https://github.com/chartist-js/chartist/issues/1368)
+* add id field to AnimationDefinition interface ([#1351](https://github.com/chartist-js/chartist/issues/1351)) ([4012c43](https://github.com/chartist-js/chartist/commit/4012c43942e2dd243a4e5983f25bf4c22ea42d91))
+* add missing default for text-line-height ([#1373](https://github.com/chartist-js/chartist/issues/1373)) ([f94e559](https://github.com/chartist-js/chartist/commit/f94e559c2414d17002ee52421b860d91b6eae0af))
+* add styles to side effects ([#1350](https://github.com/chartist-js/chartist/issues/1350)) ([053bf97](https://github.com/chartist-js/chartist/commit/053bf978d825c6285da93af3558b8c0667676212))
+* B and I series have the same color value ([#1356](https://github.com/chartist-js/chartist/issues/1356)) ([6f5ad92](https://github.com/chartist-js/chartist/commit/6f5ad92795755b1e50775cf7b837d20700f3e334))
+* data normalization with alignment ([#1365](https://github.com/chartist-js/chartist/issues/1365)) ([fe11d2f](https://github.com/chartist-js/chartist/commit/fe11d2f6d9e55455286bc34d3eed93b587f1313c)), closes [#1235](https://github.com/chartist-js/chartist/issues/1235)
+* label position fix ([#1357](https://github.com/chartist-js/chartist/issues/1357)) ([fbc13e2](https://github.com/chartist-js/chartist/commit/fbc13e22c334a46e9097f7115c1616fc0cc1077d)), closes [#1266](https://github.com/chartist-js/chartist/issues/1266)
+* reverse data correctly [#1250](https://github.com/chartist-js/chartist/issues/1250) ([#1364](https://github.com/chartist-js/chartist/issues/1364)) ([0223b1f](https://github.com/chartist-js/chartist/commit/0223b1ff2c69a919e3d776b58fb9b5cc96654987))
+* **rounding:** Fixed rounding issues and shadowing problem in roundWithPrecision ([89b71b6](https://github.com/chartist-js/chartist/commit/89b71b690a439d0598df6a42e8d047a74d94aef6))
+* SvgPath.parse fails on negative values ([#1360](https://github.com/chartist-js/chartist/issues/1360)) ([cf6831d](https://github.com/chartist-js/chartist/commit/cf6831d2f7e08dddb497d6b7ce5354e0976779ab))
+* **this / global:** use this or global to fix 'this' breaking tests / builds in node environments ([b7810e4](https://github.com/chartist-js/chartist/commit/b7810e430c55045f11b953ec12491a5a2d01f647))
+* use clientWidth/clientHeight instead of getBoundingClientRect ([#1395](https://github.com/chartist-js/chartist/issues/1395)) ([1067900](https://github.com/chartist-js/chartist/commit/10679003a8cec24f9c1f559bdd0c241ec02319a4))
+
+
+* rename methods in EventEmitter ([#17](https://github.com/chartist-js/chartist/issues/17)) ([73e1c44](https://github.com/chartist-js/chartist/commit/73e1c44dc1abab4938dc623a3dc22caad92af6a8))
+
 ## [1.3.0](https://github.com/chartist-js/chartist/compare/v1.2.1...v1.3.0) (2022-11-03)
 
 
